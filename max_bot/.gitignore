@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Секреты и локальная конфигурация — НИКОГДА не коммитим
+.env
+.env.local
+*.env.bak
+
+# Логи
+*.log
+logs/
+
+# Redis data (на случай volume в каталоге)
+redis-data/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Тесты / кэш
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
